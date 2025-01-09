@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//Develop a webpage that displays a special message based on the current day of the week.
+
+//“Start your week strong!” for Monday.
+//“Keep going!” for Tuesday.
+//“Halfway there!” for Wednesday.
+//“Almost the weekend!” for Thursday.
+//“Happy Friday!” for Friday.
+//“Enjoy your weekend!” for Saturday and Sunday.
+
+
+        let week=prompt("enter the day");
+        switch(week){
+            case "monday":
+                console.log("start your week strong");
+                break;
+                case "tuesday":
+                    console.log("keep going");
+                    break;
+                    case "wednesday":
+                        console.log("halfway there!");
+                        break;
+                        case "thursday":
+                            console.log("almost the weekend!");
+                            break;
+                            case "friday":
+                                console.log("happy friday!");
+                                break;
+                                case "saturday":
+                                    console.log("enjoy your weekend!");
+                                    break;
+                                    case "sunday":
+                                        console.log("enjoy your weekend!");
+                                        break;
+
+
+
+        }
+
+        //Traffic Light Simulation
+//Scenario: Simulate a traffic light system.
+
+//“Stop” if the light is red.
+//“Get Ready” if the light is yellow.
+//“Go” if the light is green.
+ 
+                 let light=prompt("enter the traffic light");
+                 switch(light){
+                    case "red":
+                    console.log("stop");
+                    break;
+                    case "yellow":
+                        console.log("get ready");
+                        break;
+                        case "green":
+                            console.log("Go");
+                            break;
+
+                 }
+
+
+          //Task 3: Discount Calculator
+//Scenario: Calculate the discount based on the total purchase amount.
+
+//“No discount” if the amount is less than $50.
+//“5% discount” if the amount is between $50 and $100.
+//“10% discount” if the amount is between $101 and $200.
+//“15% discount” if the amount is above $200.
+//Task:
+
+//Prompt the user to enter the total purchase amount.
+//Display the discount percentage.
+ 
+
+             let amount=prompt("enter amount");
+             if(amount<50){
+                console.log("no discount");
+             }else if(amount<=100){
+                console.log("5% discount");
+                
+             }else if(amount<=200){
+                console.log("10% discount");
+                
+             }else{
+               console.log("15% discount");
+               
+            }
+
+            //Task 4: Restaurant Menu
+            // Scenario: You are developing a restaurant menu system that provides the price of a dish based on the dish name.
+
+//Task:
+//Assume a variable dish holds the name of the dish as a string (e.g.,  "Biriyani", "shawarma", "Fried rice", "veg pula").
+//Print the price.
+
+
+let name=prompt("enter a dish name");
+    switch(name){
+        case "biryani":
+        console.log("150rs");
+        break;
+        case "shawarma":
+        console.log("200rs");
+        break;
+        case "fried rice":
+        console.log("120rs");
+        break;
+        case "veg pula":
+        console.log("100rs");
+        break;
+        default:
+        console.log("non item");
+    }
+
+//Task 5: Simple Calculator
+//Scenario: You are developing a simple calculator that performs basic arithmetic operations.
+//Task:
+//Assume variables num1 and num2 hold two numbers, and operator holds the arithmetic operator as a string (e.g., “+”).
+//Use a switch case statement to perform the operation and store the result in a variable result.
+//Print the result. -->
+
+
+ let opp=prompt("enter the operator");
+ 
+ num1=10;
+ num2=30;
+
+switch(opp){
+    case "+":
+    console.log(num1+num2);
+    break;
+    case "-":
+    console.log(num1-num2);
+    break;
+    case "*":
+    console.log(num1*num2);
+    break;
+    case "/":
+    console.log(num1/num2);
+    break;
+    case "%":
+    console.log(num1%num2);
+    break;
+    case "**":
+    console.log(num1**num2);
+    break;
+    default:
+    console.log("no operator")
+}
+
+    </script>
+
+</body>
+</html>
